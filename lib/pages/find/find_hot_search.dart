@@ -10,6 +10,7 @@ class HotSearchPage extends StatefulWidget {
 class _HotSearchPageState extends State<HotSearchPage> {
   bool isShowBlackTitle = false;
   List<Findhottop> mHotSearchList = [];
+  
 
   //判断滚动改变透明度
   void listenScrollChangeTitle(offset) {
